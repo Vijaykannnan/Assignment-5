@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: gray;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  flex-direction: column;
+  padding: 30px;
+  background-color: khaki;
+  margin: 50px;
+  color: #000;
+  font-weight: 700;
+  border-radius: 10px;
+}
+.container .colors {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-around;
+  width: 90%;
+}
+.colors-inform {
+  display: none;
+  font-size: 15px;
+  box-shadow: 0px 0px 40px 10px #fff;
+  padding: 10px;
+  border-radius: 6px;
+  height: 30vh;
+  width: 50vh;
+  color: #fff;
+}
+.colors-inform h6 {
+  margin: 14px;
+  font-size: 17px;
+}
+.colors-inform h4 {
+  font-size: 24px;
+}
+.colors-inform .choosen-col span,
+.Normal-col span {
+  text-transform: capitalize;
+}
+.options ul {
+  list-style: none;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+.options ul li {
+  display: inline;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.options ul li:after {
+  content: " |";
+  font-size: 50px;
+}
+.options ul li:hover {
+  color: beige;
+}
+
+.user-option input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+}
+button {
+  padding: 6px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 15px;
+  border-radius: 6px;
+}
+
+.refresh {
+  margin-top: 70px;
+  cursor: pointer;
+  font-size: 30px;
+
+  padding: 10px;
+}
